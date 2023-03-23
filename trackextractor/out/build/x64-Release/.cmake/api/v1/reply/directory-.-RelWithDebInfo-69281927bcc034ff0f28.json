@@ -1,0 +1,103 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "installed/lib",
+			"paths" : 
+			[
+				"tictoc.lib"
+			],
+			"targetId" : "tictoc::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "installed/lib/cmake/tictoc",
+			"exportName" : "tictoc-export",
+			"exportTargets" : 
+			[
+				{
+					"id" : "tictoc::@6890427a1f51a3e7e1df",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/3ce029c6e47e0e33489e9194fd838e2c/tictoc.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "installed/include/tictoc",
+			"paths" : 
+			[
+				"include/tictoc/tictoc.h",
+				"include/tictoc/Timer.h",
+				"include/tictoc/subpart.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/tictoc",
+			"paths" : 
+			[
+				"cmake/tictocConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{e7c0e234-47a6-4db1-9ad0-1f646553f06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{32e5f789-72ea-474f-9ac2-0405e4e5ee12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_cxts.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="cxts.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cxts.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cxts_arrtest.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cxts_math.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

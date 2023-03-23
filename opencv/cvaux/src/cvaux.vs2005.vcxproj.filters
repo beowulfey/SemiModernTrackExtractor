@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{a6166cb5-0065-44e5-87f4-060ea8e2cb26}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Src\VideoSurveillance">
+      <UniqueIdentifier>{093a64de-a064-49d2-8a10-aab91577b7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{dade77e4-30eb-4bc0-adb5-674414337e18}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Include\Internal">
+      <UniqueIdentifier>{1eccd47a-1460-446d-8f67-3b288c15f316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\External">
+      <UniqueIdentifier>{8e5c9d31-bf4f-43a7-95bf-41d1a582e6e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camshift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cv3dtracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvaux.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvauxutils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvbgfg_acmmm2003.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvbgfg_codebook.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvbgfg_common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvbgfg_gaussmix.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvcalibfilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvcorrespond.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvcorrimages.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvcreatehandmask.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvdpstereo.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cveigenobjects.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvepilines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvface.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvfacedetection.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvfacetemplate.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvfindface.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvfindhandregion.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvhmm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvhmm1d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvhmmobs.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvlcm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvlee.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvlevmar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvlevmarprojbandle.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvlevmartrif.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvlines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvlmeds.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvmorphcontours.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvmorphing.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvprewarp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvscanlines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvsegment.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvsubdiv2.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvtexture.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvtrifocal.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvvecfacetracking.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cvvideo.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\bgfg_estimation.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackanalysis.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackanalysishist.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackanalysisior.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackanalysistrackdist.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackgen1.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackgenyml.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackingauto.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackingcc.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackingccwithcr.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackingkalman.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackinglist.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackingmsfg.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackingmsfgs.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackpostprockalman.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackpostproclinear.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\blobtrackpostproclist.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\enteringblobdetection.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\enteringblobdetectionreal.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+    <ClCompile Include="vs\TestSeq.cpp">
+      <Filter>Src\VideoSurveillance</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cvaux.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_cvaux.h">
+      <Filter>Include\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="_cvfacedetection.h">
+      <Filter>Include\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="_cvvectrack.h">
+      <Filter>Include\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="_cvvm.h">
+      <Filter>Include\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Include\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cvaux.h">
+      <Filter>Include\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cvaux.hpp">
+      <Filter>Include\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cvvidsurv.hpp">
+      <Filter>Include\External</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

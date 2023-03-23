@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e9c1f818-5287-4b99-ab4e-7666a0afa8e2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\grfmts">
+      <UniqueIdentifier>{551c08f9-55e2-4157-b592-620cd5230cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{53acaad9-ec2e-4cd3-91b5-884f9b690314}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{44c94252-cff9-4c8c-a95a-6b1cd8fc7869}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cvcap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cvcap_cmu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cvcap_dshow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cvcap_images.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cvcap_vfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cvcap_w32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loadsave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window_w32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitstrm.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_base.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_bmp.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_exr.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_jpeg.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_jpeg2000.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_png.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_pxm.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_sunras.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_tiff.cpp">
+      <Filter>Source Files\grfmts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="highgui.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitstrm.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_base.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_bmp.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_exr.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_jpeg.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_jpeg2000.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_png.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_pxm.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_sunras.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_tiff.h">
+      <Filter>Source Files\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="_highgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="highgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

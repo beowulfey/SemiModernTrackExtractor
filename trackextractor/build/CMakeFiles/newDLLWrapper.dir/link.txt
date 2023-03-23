@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libnewDLLWrapper.a CMakeFiles/newDLLWrapper.dir/newDLLWrapper.cpp.o
+/usr/bin/ranlib.exe libnewDLLWrapper.a

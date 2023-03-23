@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{4f6f72ea-68e9-4ee6-9e49-4803cdf5cd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Representation">
+      <UniqueIdentifier>{1c947050-3824-4222-a010-0e9c8e09715b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scanner">
+      <UniqueIdentifier>{d34fe0d9-4e50-4953-89ac-f659e9ef4b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Emitter">
+      <UniqueIdentifier>{be1b00f0-08d6-4f51-93fe-f0859c3d11ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{7adcbe23-f78a-46c9-b5b9-ec9b61339e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Representation">
+      <UniqueIdentifier>{354ca7d7-0514-4d07-be04-e9aec3668a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scanner">
+      <UniqueIdentifier>{ad667cd0-2aa0-44a0-8f49-fead128b685a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Emitter">
+      <UniqueIdentifier>{bcd3b32d-b6f9-4b4d-a1c3-cca5b7cfaffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\parser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parserstate.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aliascontent.cpp">
+      <Filter>Source Files\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\content.cpp">
+      <Filter>Source Files\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\conversion.cpp">
+      <Filter>Source Files\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\iterator.cpp">
+      <Filter>Source Files\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map.cpp">
+      <Filter>Source Files\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node.cpp">
+      <Filter>Source Files\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\null.cpp">
+      <Filter>Source Files\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scalar.cpp">
+      <Filter>Source Files\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sequence.cpp">
+      <Filter>Source Files\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exp.cpp">
+      <Filter>Source Files\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\regex.cpp">
+      <Filter>Source Files\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scanner.cpp">
+      <Filter>Source Files\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scanscalar.cpp">
+      <Filter>Source Files\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scantoken.cpp">
+      <Filter>Source Files\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simplekey.cpp">
+      <Filter>Source Files\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream.cpp">
+      <Filter>Source Files\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emitter.cpp">
+      <Filter>Source Files\Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emitterstate.cpp">
+      <Filter>Source Files\Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emitterutils.cpp">
+      <Filter>Source Files\Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ostream.cpp">
+      <Filter>Source Files\Emitter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\crt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\indentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\noncopyable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\parser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\parserstate.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aliascontent.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\content.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\conversion.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\iterator.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iterpriv.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ltnode.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\node.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scalar.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sequence.h">
+      <Filter>Header Files\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exp.h">
+      <Filter>Header Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\regex.h">
+      <Filter>Header Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\regeximpl.h">
+      <Filter>Header Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scanner.h">
+      <Filter>Header Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scanscalar.h">
+      <Filter>Header Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stream.h">
+      <Filter>Header Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\streamcharsource.h">
+      <Filter>Header Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stringsource.h">
+      <Filter>Header Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\token.h">
+      <Filter>Header Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emitter.h">
+      <Filter>Header Files\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emittermanip.h">
+      <Filter>Header Files\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\emitterstate.h">
+      <Filter>Header Files\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\emitterutils.h">
+      <Filter>Header Files\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ostream.h">
+      <Filter>Header Files\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stlemitter.h">
+      <Filter>Header Files\Emitter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

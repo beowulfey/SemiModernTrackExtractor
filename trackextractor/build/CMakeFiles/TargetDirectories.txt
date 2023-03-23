@@ -1,0 +1,8 @@
+/home/wolfe/trackextractor/build/CMakeFiles/trackextractor.dir
+/home/wolfe/trackextractor/build/CMakeFiles/newDLLWrapper.dir
+/home/wolfe/trackextractor/build/CMakeFiles/edit_cache.dir
+/home/wolfe/trackextractor/build/CMakeFiles/rebuild_cache.dir
+/home/wolfe/trackextractor/build/CMakeFiles/list_install_components.dir
+/home/wolfe/trackextractor/build/CMakeFiles/install.dir
+/home/wolfe/trackextractor/build/CMakeFiles/install/local.dir
+/home/wolfe/trackextractor/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libtrackextractor.a CMakeFiles/trackextractor.dir/src/TrackExtractor.cpp.o
+/usr/bin/ranlib.exe libtrackextractor.a

@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/ExtractApp.dir/main.cpp.o -o ExtractApp.exe -Wl,--out-implib,libExtractApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libtrackextractor.a cv-NOTFOUND yaml-cpp-NOTFOUND -lSHARED -lIMPORTED -lSHARED -lIMPORTED /usr/local/lib/libtictoc.a 
